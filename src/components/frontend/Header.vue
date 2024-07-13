@@ -51,7 +51,37 @@
 </template>
 
 <script setup>
+
+import { onMounted } from 'vue';
+
+// onMounted(() => {
+//   // Get the header
+//   const header = document.getElementById("header");
+
+//   // Get the offset position of the header
+//   const sticky = header.offsetTop;
+
+//   // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+//   window.onscroll = function() {
+//     if (window.pageYOffset > sticky) {
+//       header.classList.add("fixed");
+//     } else {
+//       header.classList.remove("fixed");
+//     }
+//   };
+// });
 </script>
 <style>
-   
+   /* header {
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+} */
+
+/* header.fixed {
+  position: fixed;
+  top: 0;
+} */
 </style>

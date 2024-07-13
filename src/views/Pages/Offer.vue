@@ -13,7 +13,9 @@
                         <p>ডট ইন্টারনেট নিয়ে এলো সকল গ্রাহকদের জন্য রেফারাল প্রোগ্রাম। এখন ডট ইন্টারনেট এর সংযোগ নতুন কাউকে রেফার করেই পেয়ে যান মাসিক বি...</p>
                     </div>
                     <div class="card-footer mb-2" id="offer-card-footer">
-                        <a href="details.html" class="btn btn-success "> Learn More</a>
+                       
+                            <RouterLink to="/details">See More</RouterLink>
+                       
                     </div>
                 </div>
             </div>

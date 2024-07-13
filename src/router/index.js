@@ -7,6 +7,7 @@ import Price from '@/views/Pages/Price.vue'
 import Coverage from '@/views/Pages/Coverage.vue'
 import Pay from '@/views/Pages/Pay.vue'
 import Contact from '@/views/Pages/Contact.vue'
+import Details from '@/views/Pages/Details.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +46,11 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/details',
+      name: 'details',
+      component: Details
     },
     {
       path: '/:pathMatch(.*)*', 
